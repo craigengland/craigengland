@@ -1,0 +1,51 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font: 13.34px "EB Garamond", Helvetica, Arial, sans-serif;
+    font-size: small;
+}
+
+hr {
+    height: 1px;
+    display: block;
+    border: 0;
+    border-top: 1px solid $alpha;
+    width: 60%;
+    margin: 10em auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;    
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+strike {
+    color: $beta;
+}
