@@ -27,6 +27,9 @@ a {
   margin: 0;
   padding: 0; }
 
+body svg {
+  display: none; }
+
 html, body {
   height: 100%;
   box-sizing: border-box; }
@@ -34,7 +37,9 @@ html, body {
 body {
   background-color: white;
   font: 13.34px "EB Garamond", Helvetica, Arial, sans-serif;
-  font-size: small; }
+  font-size: small;
+  margin: 0;
+  padding: 0; }
 
 hr {
   height: 1px;
@@ -313,7 +318,9 @@ ul {
 /* Literal.Number.Integer.Long */
 /* Header */
 header {
-  margin: 14% 0 0% 0%; }
+  padding: 14% 0%;
+  background: url("/assets/img/beach.png") no-repeat center center;
+  background-size: cover; }
 
 .container {
   width: 90%;
@@ -321,8 +328,7 @@ header {
   margin: 0 auto; }
 
 .logo {
-  font-size: 4em;
-  color: #F14760; }
+  font-size: 4em; }
 
 .description {
   padding: 15% 0 15%;
@@ -337,7 +343,7 @@ header {
   display: block;
   width: 160px;
   text-align: center;
-  border: 1px solid #cccccc;
+  border: 1px solid black;
   padding: 14px 18px;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;

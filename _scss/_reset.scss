@@ -10,6 +10,11 @@
     padding: 0;
 }
 
+body svg {
+    display: none;
+}
+
+
 html, body {
     height: 100%;
     box-sizing: border-box;
@@ -19,6 +24,8 @@ body {
     background-color: white;
     font: 13.34px "EB Garamond", Helvetica, Arial, sans-serif;
     font-size: small;
+    margin: 0;
+    padding: 0;
 }
 
 hr {
