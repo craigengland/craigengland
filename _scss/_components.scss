@@ -31,15 +31,18 @@ header {
   display: block;
   width: 160px;
   text-align: center;
-  border: 1px solid black;
   padding: 14px 18px;
+  color: white;
+  border: 1px solid transparent;
+  background-color: $beta;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   transition: all, .3s;
   &:hover {
-    border: 1px solid $beta;
-    color: $beta;
     transition: all, .3s;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
   }
 }
 
@@ -147,19 +150,21 @@ path {
   }
   a {
     display: block;
-    border: 1px solid $alpha;
     width: 160px;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 5em;
-    padding: 15px 18px;
     text-align: center;
+    padding: 14px 18px;
+    color: white;
+    margin-top: 5em;
+    border: 1px solid transparent;
+    background-color: $beta;
     text-transform: uppercase;
-    font-size: .9em;
+    font-family: 'Raleway', sans-serif;
     transition: all, .3s;
     &:hover {
-      border: 1px solid $beta;
-      color: $beta;
       transition: all, .3s;
+      background-color: transparent;
+      color: black;
+      border: 1px solid black;
     }
   }
 }

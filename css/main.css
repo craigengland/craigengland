@@ -343,15 +343,18 @@ header {
   display: block;
   width: 160px;
   text-align: center;
-  border: 1px solid black;
   padding: 14px 18px;
+  color: white;
+  border: 1px solid transparent;
+  background-color: #736864;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   transition: all, .3s; }
   .cv:hover {
-    border: 1px solid #1b38ff;
-    color: #1b38ff;
-    transition: all, .3s; }
+    transition: all, .3s;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black; }
 
 /* About */
 section {
@@ -388,7 +391,7 @@ section {
   display: block; }
 
 path {
-  fill: #F14760; }
+  fill: #a13f4e; }
 
 .skills {
   margin: 0;
@@ -398,7 +401,7 @@ path {
   .skills h3 {
     text-align: center;
     margin-top: 1.5em;
-    color: #1b38ff; }
+    color: #736864; }
   .skills ul {
     list-style-type: none;
     font-size: 1.2rem;
@@ -429,9 +432,9 @@ path {
 /* Case Study */
 .case-study h3 {
   margin-bottom: 1.5em;
-  border-bottom: 1px solid #F14760;
+  border-bottom: 1px solid #a13f4e;
   display: inline-block;
-  color: #1b38ff;
+  color: #736864;
   text-transform: capitalize;
   font-size: 1.6rem; }
 
@@ -441,19 +444,21 @@ path {
 
 .case-study a {
   display: block;
-  border: 1px solid #cccccc;
   width: 160px;
-  font-family: 'Raleway', sans-serif;
-  margin-top: 5em;
-  padding: 15px 18px;
   text-align: center;
+  padding: 14px 18px;
+  color: white;
+  margin-top: 5em;
+  border: 1px solid transparent;
+  background-color: #736864;
   text-transform: uppercase;
-  font-size: .9em;
+  font-family: 'Raleway', sans-serif;
   transition: all, .3s; }
   .case-study a:hover {
-    border: 1px solid #1b38ff;
-    color: #1b38ff;
-    transition: all, .3s; }
+    transition: all, .3s;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black; }
 
 /* Contact */
 .contact {
@@ -463,10 +468,10 @@ path {
 h4 {
   font-size: 1.6rem;
   text-transform: uppercase;
-  color: #1b38ff; }
+  color: #736864; }
 
 .contact-grid {
   padding: 30px 0; }
   .contact-grid a {
     font-size: 1.2rem;
-    color: #F14760; }
+    color: #a13f4e; }
