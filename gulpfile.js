@@ -4,6 +4,8 @@ var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 var svgSymbols  = require('gulp-svg-symbols');
+var imagemin    = require('gulp-imagemin');
+var cssnano     = require('gulp-cssnano');
 
 
 var messages = {
@@ -48,12 +50,13 @@ gulp.task('sass', function () {
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('_site/css'))
+        .pipe(cssnano())
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('css'));
 });
 
 /**
- Create an svg sprite system for iconography
+    Create an svg sprite system for iconography
 */
 
 gulp.task('svgSymbols', function(){
@@ -71,6 +74,17 @@ gulp.task('svgSymbols', function(){
 	.pipe(gulp.dest('_includes'));
 });
 
+/**
+    Optimise Images for performance gains
+*/
+
+gulp.task('images', function(){
+    return gulp.src('assets/**/*')
+    .pipe(imagemin({
+        progressive: true
+    }))
+    .pipe(gulp.dest('_site/assets'));
+});
 
 
 /**
