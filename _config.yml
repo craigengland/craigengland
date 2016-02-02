@@ -1,6 +1,6 @@
 name: Craig England
 markdown: redcarpet
-highlighter: pygments # or rouge or null
+highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 url: "http://bigheed21.github.io"
-baseurl: /craigengland/ 
+baseurl: /craigengland/
