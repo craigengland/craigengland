@@ -1,0 +1,27 @@
+---
+
+layout: default
+title: Blog
+
+---
+
+{% include meta.html %}
+
+<div class="container">
+  <div class="blog-intro cf">
+    <h1>{{page.title}} /</h1>
+    <a href="../">Go back to the homepage</a>
+  </div>
+  {% for post in site.posts %}
+  <article>
+
+    <h5>{{post.date || date_to_string }}</h5>
+    <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+
+    <p>{{post.excerpt}}</p>
+    <a href="{{post.url}}" data-arrow="&rarr;" class="btn">Read the article</a>
+
+  </article>
+{% endfor %}
+</div>
+{% include footer.html %}

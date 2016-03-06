@@ -93,7 +93,7 @@ gulp.task('images', function(){
  */
 gulp.task('watch', function () {
     gulp.watch('_scss/*.scss', ['sass']);
-    gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '*.yml', '_includes/*.html'], ['jekyll-rebuild']);
+    gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '*.yml', '_includes/*.html', 'blog/*.html'], ['jekyll-rebuild']);
     gulp.watch('assets/svg/*.svg', ['svgSymbols']);
 });
 

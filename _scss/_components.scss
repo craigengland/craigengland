@@ -24,6 +24,10 @@ header {
   }
    p {
     font-size: 2.4em;
+    a {
+      border-bottom: 2px solid $beta;
+      color: $beta;
+    }
   }
 }
 

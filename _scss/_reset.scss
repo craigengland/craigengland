@@ -43,6 +43,23 @@ ul {
     list-style-type: none;
 }
 
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    @media screen and (min-width: 800px) {
+        width: 250px;
+    }
+}
+
+ol {
+    margin-left: 20px;
+    li {
+        padding-bottom: 10px;
+        font-size: 1.4rem;
+    }
+}
+
 .cf:before,
 .cf:after {
     content: " ";
