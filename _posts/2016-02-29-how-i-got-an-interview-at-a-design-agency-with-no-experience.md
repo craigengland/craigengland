@@ -16,7 +16,7 @@ It is important I let you know that I had a very small stint at an e-commerce ag
 ## The beginning
 
 Create my own online presence. This would give me a space online where I can store my CV, list the skills that I can offer and some recent work that I have completed. On top of this it also gave me the opportunity to learn a new technology when building out the site.
-[Jekyll](jekyllrb.com) was my choice. A static site generator which is written in Ruby. It allowed me to become more comfortable with liquid tags, the command line and using Github for version control. Even if no-one visited my site I would still have gained knowledge that would benefit me in the long run. A win win situation.
+[Jekyll](http://jekyllrb.com) was my choice. A static site generator which is written in Ruby. It allowed me to become more comfortable with liquid tags, the command line and using Github for version control. Even if no-one visited my site I would still have gained knowledge that would benefit me in the long run. A win win situation.
 
 ## Look for the right opportunities
 
