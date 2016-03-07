@@ -9,7 +9,7 @@ date: 3rd March 2016
 
 When I was approached by a client to not only build their first ever website but to rank high on google for a particular search term, I came up with an approach of putting content first instead of design and aesthetics.
 
-With [wccranes.ca](wccranes.ca) there were some basics steps that I had to complete to get the site optimized for the local market that the client was looking to attract.
+With [wccranes.ca](http://wccranes.ca) there were some basics steps that I had to complete to get the site optimized for the local market that the client was looking to attract.
 
 This won't be detailing anything groundbreaking in terms of SEO strategy. It will be the minimum that I think should be done for getting a site ready for the potential to rank high on relevant search engines. For this reason it was important that I take SEO into consideration __during__ the web development process rather than it be an afterthought.
 
