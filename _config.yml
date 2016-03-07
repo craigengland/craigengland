@@ -1,5 +1,5 @@
 name: Craig England
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 url: "http://bigheed21.github.io"
