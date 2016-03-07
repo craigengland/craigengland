@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: How I got an interview at a design agency with no experience
+title: How I approach applying for jobs in the creative industry
 excerpt: With my recent decision to change my career, I realised that a different approach to getting noticed was required in the creative industry. When I saw this job title, I knew this was a chance to impress.
 
 ---
@@ -11,18 +11,24 @@ When I decided that it was the right time in my life for a change of career, I k
 
 ## Let's back up for a bit first
 
-It is important I let you know that I had a very small stint at an e-commerce agency in Vancouver, BC but this was back in 2011 and probably no longer relevant to potential employers. The last 3-4 years of my employment have been in the recoveries industry, a far cry from what I wanted to do since leaving university in 2009.
+When I say no experience, I am sort of bending the truth a little. I had a very small stint at a design agency in Vancouver, BC working for [Jammicron Technology Corporation](http://www.jammicron.com) during the summer of 2011. With this now being 2016 I am considering this 'experience' irrelevant as far as potential employers are concerned. Since that time up until now I was employed in the recoveries industry which was a far cry from what I intended since graduating in 2009.
 
 ## The beginning
 
-Create my own online presence. This would give me a space online where I can store my CV, list the skills that I can offer and some recent work that I have completed. On top of this it also gave me the opportunity to learn a new technology when building out the site.
-[Jekyll](http://jekyllrb.com) was my choice. A static site generator which is written in Ruby. It allowed me to become more comfortable with liquid tags, the command line and using Github for version control. Even if no-one visited my site I would still have gained knowledge that would benefit me in the long run. A win win situation.
+Create my own online presence. Despite wanting to do this for years, for some reason I never quite completed the task. Now was the time to change that once and for all. This would provide me with an easy outlet for storing my CV, presenting the current skills that I possess and showing off some recent work that I had completed.
+
 
 ## Look for the right opportunities
 
-Identify attainable positions based on my lack of experience. First of all, I decided that I would move pretty much anywhere in the UK for the right role. A vast search of agencies in Scotland and the north of England ensued to narrow it down to places that were offering the environment I required in order to advance my career in the correct manner. There was no rocket science behind this approach. Basically I was going to agency websites, seeing if they had a career page and if so then determining if my skills matched one of their roles on offer.
+Here is a list of things that I took into consideration when looking for the right role.
 
-## Make initial contact
+1. Location was not important. I would relocate in a heartbeat.
+2. The role had to be part of a design/creative agency.
+3. My scope of position would be from business development/sales to junior front end developer.
+4. Pay was not important. I realise that I would more than likely start in some sort of entry level or junior position which would result in a drop in wages. Not a concern for me at this stage in my career.
+5. Don't apply for every position under the sun. Although I probably don't have this luxury at this time, I felt it was important to apply to companies that I was impressed with. Taking something to 'get by' would defeat the purpose of trying to change career.
+
+## Making contact
 
 When I identified one particular role, which was admittedly, out with my level of experience I decided to take a shot.
 
@@ -37,7 +43,7 @@ Check out my website www.craigengland.co.uk
 
 > I believe attaching a CV to my email is too easy (and old school!) so why not go download it from my site. There is even a strategically placed 'call to action' to lure you too it!
 
-> My work with the Greater Victoria Coalition to End Homelessness was voluntary but purely based on starting the social media strategy for this important charitable organisation. I wouldn't call myself a 'guru' in social media but I think I have the capability and drive to succeed in this role.
+> My work with the Greater Victoria Coalition to End Homelessness was voluntary but purely based on starting the social media strategy for this important charitable organization. I wouldn't call myself a 'guru' in social media but I think I have the capability and drive to succeed in this role.
 
 > If this appeals to your creative side then feel free to give me a call or send me an email. (Even if it doesn't you can still do either of those things!)
 
@@ -59,7 +65,7 @@ Here was the response.
 
 > Very best
 
-After receiving this I got to work on preparing for the interview which also involved another unique approach. As the person responding specifically said he was impressed with my method of communication, I put together a one page document to show him the process I went through to apply for the role.
+After receiving this I got to work on preparing for the interview which also involved doing something different. As the person responding specifically said he was impressed with my method of communication, I put together a one page document to show him the process I went through to apply for the role.
 
 I call it my own personal content strategy. You can view it [here](/assets/files/interview-preparation.pdf)
 
@@ -100,10 +106,8 @@ anything coming up in future.
 > Cheers
 > Paul
 
-What this told me was that my content strategy was working. I was getting personal responses from directors of companies saying they were impressed with my method of application instead of mail merge replies saying that they would keep my details on file for 3-6 months and that there was nothing available at this time.
+What this told me was that my 'content strategy' was working. I was getting personal responses from directors of companies saying they were impressed with my method of application instead of mail merge replies saying that they would keep my details on file for 3-6 months and that there was nothing available at this time.
 
 ## The takeaway
 
-Of course I don't get responses like those all the time but those small emails give me the courage to continue on my ambition of working in the digital industry.
-
-Next step is to land the job! Wish me luck!
+Of course I don't get responses like those shown above all the time but those small emails give me the courage to continue on my ambition of working in the digital industry.
