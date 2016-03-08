@@ -78,4 +78,4 @@ I don't see the site winning any awards for design anytime soon but the original
 3. Establish a content hierarchy
 4. Submit an XML Sitemap
 5. Create a user friendly 404 page
-6. Make use for free tools such as Google Webmaster Tools, Analytics and Adwords
+6. Make use for free tools such as Google Search Console, Google Analytics and Google Adwords
