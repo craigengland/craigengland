@@ -4,3 +4,6 @@ highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 url: "http://bigheed21.github.io"
 baseurl: /craigengland/
+gems: [jekyll-paginate, jekyll-gist]
+paginate: 10
+paginate_path: "page:num"

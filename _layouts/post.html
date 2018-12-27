@@ -1,24 +1,41 @@
 ---
-layout: default
+layout: post
 ---
 
 {% include meta.html %}
 
 
+<div class="c--intro_article cf">
+  <h1>
+    <a href="/">CE</a>
+  </h1>
+  <a href="/" class="blog">Home</a>
+</div>
 
-<div class="container">
+<article class="c--post_container"></div>
+  <div class="c--post_single {{ page.color }}">
+    
+      <b class="c--post_date mb2">{{ page.date | date_to_string }}</b>
+      <h1 class="c--post_title mb2">{{ page.title }}</h1>
+      <i class="c--post_mileage">Distance: {{ page.excerpt }}</i> 
 
-  <div class="intro-article cf">
-    <a href="/" class="home">Go back to home page</a>
-    <a href="/blog" class="blog">Go back to the Blog</a>
+    
   </div>
 
-  <article class="post-single">
-    <h1 class="post-title">{{ page.title }}</h1>
+  <main class="c--post_content">
+    
+      {{ content }}
+    
+  </main>
 
-    {{ content }}
-
-  </article>
-
+  <div class="c--pagination">
+    {% if page.previous.url %}
+    <a href="{{ page.previous.url }}" class="previous--day">{{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+    <a href="{{ page.next.url }}" class="next--day">{{page.next.title}}</a>
+    {% endif %}
+  </div>
 
 </div>
+

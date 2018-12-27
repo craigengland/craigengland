@@ -1,0 +1,45 @@
+.blog-hero {
+  padding: 5% 2.5% 10%;
+  display: flex;
+  align-items: center;
+  .bike {
+    height: 12rem;
+    width: 12rem;
+  }
+}
+
+.c--article {
+  padding: 4vw;
+  display: block;
+  
+  transition: scale, 0.5s;
+  &:last-child() {
+    background-color: #fff;
+  }
+  &:hover {
+    transform: scale(0.97);
+    transition: scale, 0.5s;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-gap: 2rem;
+  padding: 2.5%;
+  .c--article--featured, .c--article--one {
+    height: 100%;
+    align-self: center;
+  }
+  .c--article--one {
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
+  }
+  .c--article--featured {
+    grid-column: 1 / 2;
+    grid-row: 3 / span 2;
+  }
+  &:last-child() {
+    grid-row: 1 / span 4;
+  }
+}

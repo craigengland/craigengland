@@ -1,20 +1,31 @@
+@mixin font-size-calc($font-size-sm: 16, $font-size-lg: 30, $screen-size-sm: 320, $screen-size-lg: 1800) {
+    font-size: calc(#{$font-size-sm}px + (#{$font-size-lg} - #{$font-size-sm}) * ( (100vw - #{$screen-size-sm}px) / (#{$screen-size-lg} - #{$screen-size-sm}) ) );
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
+    font-size: 100%;     
+}
+
+h1 {
+    @include font-size-calc($font-size-sm: 24, $font-size-lg: 44);
 }
 
 h2 {
-    font-size: 2rem;
-    margin: 1.5em 0;
-    color: #28167d;
+    @include font-size-calc($font-size-sm: 20, $font-size-lg: 36);
+    color: #000000;
+    margin-bottom: 1vw; 
+    font-weight: normal;
 }
 
 h3 {
-    font-size: 1.6rem;
+    @include font-size-calc($font-size-sm: 18, $font-size-lg: 32);
+    margin-bottom: .8vw;
 }
 
 p {
-    margin: 1em 0;
     line-height: 1.6;
+    @include font-size-calc($font-size-sm: 16, $font-size-lg: 20);
+    margin-bottom: 2vw;
 }
 
 a  {
@@ -23,7 +34,7 @@ a  {
 }
 
 span {
-
+    @include font-size-calc($font-size-sm: 16, $font-size-lg: 18);
 }
 
 blockquote {
@@ -31,4 +42,7 @@ blockquote {
     padding-left: 20px;
     font-size: .8em;
     font-style: italic;
+}
+p {
+    font-family: 'Noto Serif', sans-serif;
 }

@@ -1,48 +1,27 @@
 /* Header */
 
-header {
-  background-color: $heroBackground;
-  height: 100vh;
-}
-
-.container {
-  width: 90%;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-.logo-container {
-  padding: 2rem 0;
+.header {
+  border-bottom: 6px solid white;
+  padding: 20vh 5vw;
 }
 
 .logo {
-  font-size: 1.6rem;
-  font-weight: normal;
-  text-align: right;
-  position: relative;
-  &:before {
-    content: '';
-    position: absolute;
-    display: block;
-    top: 0;
-    right: 12rem;
-    margin: 15px 0 0;
-    height: 2px;
-    background-color: $alpha;
-    width: 5rem;
-  }
+  @include font-size-calc($font-size-sm: 20, $font-size-lg: 30);
+  text-transform: uppercase;
+  color: $blue;
+  letter-spacing: .05rem;
+  margin-bottom: 2rem;
 }
 
 .description {
-  padding: 25% 0;
-  max-width: 800px;
-   p {
-    font-size: 2.4rem;
+  
+  @include font-size-calc($font-size-sm: 16, $font-size-lg: 50); 
+  max-width: 65%;
     a {
       border-bottom-width: 2px;
       border-bottom-style: solid;
       border-bottom-color: $alpha;
-      color: $beta;
+      color: $alpha;
       transition: border-bottom-color 500ms ease-out;
       position: relative;
 
@@ -54,85 +33,75 @@ header {
         width: 0px;
         display: block;
         height: 2px;
-        background-color: white;
+        background-color: $alpha;
         animation: reverseWidth .3s;
       }
     }
-  }
 }
 
 .description a:hover:after {
   width: 100%;
   animation: animateWidth .3s;
-  background-color: white;
 }
 
-
-.row-6 {
-  width: 100%;
-  @media screen and (min-width: 700px) {
-    width: 50%;
-    float: left;
-  }
+.projects {
+  padding: 10vh 5vw;
 }
 
-/* Skills */
-
-.icon {
-  width: 30px;
-  height: 30px;
-  display: block;
+.projects--headine {
+  color: $blue;
+  margin-bottom: 4rem;
 }
 
-path {
-  fill: white;
-}
+.projects--list {
 
+    grid-column: 2 / 12;
+
+    li {
+      
+
+      a {
+
+        @include font-size-calc($font-size-sm: 18, $font-size-lg: 22);
+        border-top: .025em solid rgba($blue, 0.7);
+        display: block;
+        padding: 8vh 0;
+
+      }
+
+      &:last-child {
+
+        a {
+
+          border-bottom: .025em solid $blue;
+
+        }
+      
+    }
+
+      
+
+    }
+
+}
 
 
 /* Footer */
 
 .contact {
-  padding: 20% 0;
-  background-color: rgba($alpha, .95);
-  color: white;
-  text-align: right;
+  padding: 10vh 5vw 30vh;
   h3 {
-    text-align: right;
-    font-size: 1.6rem;
-    font-weight: normal;
-    position: relative;
-    &:before {
-      content: '';
-      position: absolute;
-      display: block;
-      background-color: white;
-      width: 5rem;
-      height: 2px;
-      right: 7rem;
-      top: 0;
-      margin: 15px 0 0;
-    }
-  }
-}
-
-h4 {
-  font-size: 1rem;
-  font-weight: normal;
-}
-
-.contact-grid {
-  padding: 5px 0;
-  a {
-    font-size: 1rem;
-    color: white;
-    display: inline-block;
+    @include font-size-calc($font-size-sm: 20, $font-size-lg: 22);
+    text-transform: uppercase;
     letter-spacing: .05rem;
+    color: $blue;
+    margin-bottom: 2rem;
   }
-}
-
-.contact-information {
-  margin-top: 2rem;
+  a {
+    @include font-size-calc($font-size-sm: 20, $font-size-lg: 20);
+    letter-spacing: .025rem;
+    display: block;
+  }
 }
 
 @keyframes animateWidth {

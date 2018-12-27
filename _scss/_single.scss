@@ -1,0 +1,83 @@
+.blog-intro {
+  padding: 3% 2.5%;
+}
+
+.c--intro_article {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .home, .blog {
+    padding: 1vw;
+    position: absolute;
+    border: .05rem solid rgba($alpha, 0.2);
+    top: 0;
+    border-top: 0;
+  }
+  .home {     
+    left: 0;
+    border-left: 0;
+  }
+  .blog {
+    right: 0;
+    border-right: 0;
+  }
+}
+
+.c--post_container {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding-top: 10vh;
+}
+
+.c--post_single {
+  text-align: center;
+}
+
+.c--post_date {
+  text-transform: uppercase;
+  display: block;
+}
+
+.c--post_title { 
+  @include font-size-calc($font-size-sm: 24, $font-size-lg: 48);
+}
+
+.c--post_mileage {
+  display: block;
+  @include font-size-calc($font-size-sm: 16, $font-size-lg: 18);
+}
+
+.c--post_body {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 7% 1%;
+}
+
+.c--post_content {
+  margin: 10% 0;
+}
+
+.c--pagination {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.next--day, .previous--day {
+  position: absolute;
+  bottom: 0;
+  padding: 1vw;
+}
+
+.previous--day {
+  left: 0;
+}
+
+.next--day {
+  right: 0;
+}
