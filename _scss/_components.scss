@@ -66,6 +66,12 @@
         border-top: .025em solid rgba($blue, 0.7);
         display: block;
         padding: 8vh 0;
+        transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+        
+        &:hover {
+          background-color: rgba($blue, 0.1);
+          padding-left: 1rem;
+        }
 
       }
 
